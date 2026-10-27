@@ -3,7 +3,7 @@
 - **Course:** ICT 3107 / ICT 3108 — Part I: Final Capstone Project Proposal and Prototyping
 - **Student:** Shuyaib Hasan Shuyeb 
 - **ID:** IT-23047
-- **Repository:** <https://github.com/Shahariar6172/lab-Booking>
+- **Repository:** <https://github.com/Shuyeb82/Capstone-Project-Proposal>
 - **Date of this version:** 2026-10-24
 - **Status of the work described here:** working prototype complete for the student and administrator borrowing workflow; penalties specified but not implemented.
 
