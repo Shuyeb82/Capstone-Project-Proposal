@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.labbooking</groupId>
+  <artifactId>lab-booking</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>ICT Lab Resource Booking System</name>
+
+  <!-- pom.xml = Maven এর CMakeLists.txt. লাইব্রেরি নিজে ডাউনলোড করতে হয় না,
+       এখানে নাম-ভার্সন লিখলে Maven ইন্টারনেট থেকে এনে দেয়। -->
+  <properties>
+    <!-- মেশিনে JDK 25 থাকলেও কোড Java 21 হিসেবে কম্পাইল হবে -->
+    <maven.compiler.release>21</maven.compiler.release>
+    <!-- UTF-8 না দিলে কোডের বাংলা কমেন্ট কম্পাইলের সময় ভেঙে যাবে -->
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <javafx.version>21.0.5</javafx.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-controls</artifactId>
+      <version>${javafx.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-fxml</artifactId>
+      <version>${javafx.version}</version>
+    </dependency>
+    <!-- MySQL এর JDBC ড্রাইভার: Java থেকে ডাটাবেসে কোয়েরি চালানোর জন্য -->
+    <dependency>
+      <groupId>com.mysql</groupId>
+      <artifactId>mysql-connector-j</artifactId>
+      <version>8.4.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>5.11.3</version>
+      <!-- scope=test মানে শুধু টেস্টের সময় লাগবে, ফাইনাল অ্যাপে যাবে না -->
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <!-- এই প্লাগিনের জন্যই `mvn javafx:run` দিয়ে অ্যাপ চালানো যায় -->
+      <plugin>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-maven-plugin</artifactId>
+        <version>0.0.8</version>
+        <configuration>
+          <mainClass>com.labbooking.Main</mainClass>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
