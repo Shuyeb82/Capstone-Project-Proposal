@@ -368,9 +368,8 @@ In priority order, each a small change because of where the current code puts th
 ## 28. Conclusion
 
 The ICT Lab Resource Booking System addresses a narrow, real problem — the ICT laboratory does not know what equipment it has free, or who is holding the rest — and solves it by making the physical unit the unit of record and the transaction the unit of change. Part I delivers more than a mock-up: the schema, nine classes, four screens and the complete student and administrator workflow are implemented and verified against a live database, and the one feature not built is labelled as such everywhere it appears. The incremental process model was chosen because the requirements were stable and the features stack in dependency order, and it is also why the diagrams are drawn last: from software that exists rather than software that was planned. What remains for Part I is bounded.
-## 30. Repository
 
-**GitHub:** <https://github.com/Shahariar6172/lab-Booking>
+
 
 
 
