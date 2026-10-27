@@ -10,7 +10,7 @@ The main objective is to make equipment borrowing easier to manage. The system r
 
 **Project Proposal**
 
-[Capstone Proposal](https://github.com/Shahariar6172/lab-Booking/blob/main/docs/proposal/capstone-proposal.md)
+[Capstone Proposal](https://github.com/Shuyeb82/Capstone-Project-Proposal/blob/main/Docs/Proposal/capstone-proposal.md)
 
 **Users**
 
@@ -122,6 +122,6 @@ mysql -u root -p lab_booking < db/seed.sql
 | Name | Email | Role |
 |---|---|---|
 | Lab Administrator | `admin@lab.edu` | ADMIN |
-| Al-Shahariar | `shahariar@lab.edu` | STUDENT |
+| Shuyaib Hasan | `shuyaib@lab.edu` | STUDENT |
 
 `admin@mbstu.ac.bd` (ADMIN).
