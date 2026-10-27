@@ -1,8 +1,8 @@
 # ICT Lab Resource Booking System — Final Capstone Project Proposal (Part I)
 
 - **Course:** ICT 3107 / ICT 3108 — Part I: Final Capstone Project Proposal and Prototyping
-- **Student:** Al-Shahariar 
-- **ID:** IT-24057
+- **Student:** Shuyaib Hasan Shuyeb 
+- **ID:** IT-23047
 - **Repository:** <https://github.com/Shahariar6172/lab-Booking>
 - **Date of this version:** 2026-10-24
 - **Status of the work described here:** working prototype complete for the student and administrator borrowing workflow; penalties specified but not implemented.
